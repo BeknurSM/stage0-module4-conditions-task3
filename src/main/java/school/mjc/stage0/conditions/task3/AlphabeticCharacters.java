@@ -3,7 +3,7 @@ package school.mjc.stage0.conditions.task3;
 public class AlphabeticCharacters {
     public void vowelDeterminer(char character) {
         if (65 <= character && character <= 90 && 97 <= character && character <=122){
-            if (character == 'a' || character =='e' || character =='i' || character =='o' || character =='u')
+            if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u')
             {
                 System.out.println("Vowel");
             }

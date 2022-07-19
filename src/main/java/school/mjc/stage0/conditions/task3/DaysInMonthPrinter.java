@@ -9,7 +9,7 @@ public class DaysInMonthPrinter {
             {
                 days=31;
             }
-            else if(month==4||month  ==6||month==9||month==11)
+            else if(month==4 || month  ==6 || month==9 || month == 11)
             {
                 days=30;
             }
@@ -19,7 +19,7 @@ public class DaysInMonthPrinter {
                 {
                     if(2022%400==0&&2022%100==0)
                     {
-                        days=29;
+                        days=28;
                     }
                     else
                     {
@@ -33,7 +33,7 @@ public class DaysInMonthPrinter {
                 }
 
             }
-            System.out.println(month);
+            System.out.println(days);
         }
         else
             System.out.println("wrong number!");
