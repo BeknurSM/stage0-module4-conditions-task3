@@ -12,7 +12,7 @@ public class SalaryCalculator {
             System.out.println(salary-(salary*0.20));
         }
         else{
-            System.out.println("wrong input");
+            System.out.println("wrong input!");
         }
     }
 }
