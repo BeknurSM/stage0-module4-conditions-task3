@@ -5,10 +5,10 @@ public class SalaryCalculator {
         if (salary <= 10000){
             System.out.println(salary-(salary*0.15));
         }
-        if (10000 < salary && salary <= 20000){
+        else if (10000 < salary && salary <= 20000){
             System.out.println(salary-(salary*0.18));
         }
-        if (salary > 20000){
+        else if (salary > 20000){
             System.out.println(salary-(salary*0.20));
         }
         else{

@@ -6,7 +6,7 @@ public class IsEnglishSymbolDeterminer {
             System.out.println("English");
         }
         else{
-            System.out.println("Nom English");
+            System.out.println("Non English");
         }
     }
 }
